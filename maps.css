@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#maps{
+    display: flex;
+    justify-content: center;
+}
+
+.maps{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+
+@media only screen and (max-width: 912px) {
+   
+    #maps{
+       
+        display: block;
+        justify-content: center;
+        
+    }
+
+   /* body{
+    background-color: red;
+   } */
+
+  .maps{
+    width: 100%;
+    height: 50%;
+  }
+}
